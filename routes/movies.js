@@ -28,5 +28,4 @@ const MovieRouter = () => {
 module.exports = {
     MovieRouter,
     allMovies,
-    trialRoute,
 }
