@@ -2,6 +2,7 @@
 const {dbAddr,} = require('../services/db');
 const {getDbConn,} = require('../services/db');
 
+// DB FUNCTIONS
 const getAllMovies = () => {
     return getDbConn(dbAddr).any(
         `select * from movies`
