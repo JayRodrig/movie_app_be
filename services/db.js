@@ -2,7 +2,7 @@
 const pgp = require('pg-promise');
 
 // IIFE FUNCTION RETURNING DB CONNECTION VARIABLE
-const getDBConn = (() => {
+const getDbConn = (() => {
     let dbConn = null;
     return dbAddr => {
         if (!dbConn) {
