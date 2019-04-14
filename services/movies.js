@@ -1,5 +1,5 @@
 // LOCAL DEPENDENCIES
-const {dbAddr,} = require('../services/db');
+const {dbAddr,} = require('../services/config');
 const {getDbConn,} = require('../services/db');
 
 // DB FUNCTIONS

@@ -25,7 +25,7 @@ test('App.use is ran this many times', done => {
     const app = getApp();
 
     expect(app).toEqual(mockApp);
-    expect(mockUse.mock.calls.length).toBe(2);
+    expect(mockUse.mock.calls.length).toBe(3);
     expect(mockUse.mock.calls[0][0]).toBe('bogus');
 
     done();
