@@ -10,6 +10,7 @@ const {MovieRouter,} = require('./routes/movies');
 // FUNCTION RETURNING EXPRESS APP SERVER
 const getApp = () => {
     const app = express();
+    
     app.use(bodyParser.json());
     app.use(cors());
 
