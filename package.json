@@ -4,7 +4,7 @@
   "description": "An app that will list movies and allow users to comment and rate annonymously.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "$(npm bin)/jest --coverage",
     "start:local": "$(npm bin)/nodemon index.js"
   },
   "author": "J",
