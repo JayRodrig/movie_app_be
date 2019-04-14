@@ -22,7 +22,7 @@ const getMovie = movie_id => {
 }
 
 const allMoviesFromGenre = genre_id => {
-    getDbConn(dbAddr).any(
+    return getDbConn(dbAddr).any(
         `
         select * from movies join genres 
         on movies.genre_id = genres.id
